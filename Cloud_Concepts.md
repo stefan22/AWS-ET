@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 # Cloud Services  (AWS is all of these)
 
+=======
+# Cloud Services
+>>>>>>> e140d7df1f26ab48a792321fbdce748cdc88cb55
 
 	- Infrastructure as a Service (IaaS)
 			- Windows Azure, Rackspace Cloud
@@ -51,4 +55,8 @@
 	
 
 
+<<<<<<< HEAD
 		
+=======
+	- Software as a Service (SaaS)
+>>>>>>> e140d7df1f26ab48a792321fbdce748cdc88cb55
