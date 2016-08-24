@@ -1,4 +1,4 @@
-# AWS-ET  ### (Amazon Web Services - current leading provider of cloud based services)
+# AWS-ET  (Amazon Web Services - current leading provider of cloud based services)
 
 
 - Core practices and principles needed to build cloud based applications that can take advantage of AWS's scallable infrastructure.
