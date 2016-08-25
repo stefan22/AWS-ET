@@ -9,4 +9,4 @@
 
 
 
-![AWS Services](images/AWS_Services.gif "Logo Title Text 1")
+![AWS Services](images/AWS_Services.gif "Amazon Web Services")
