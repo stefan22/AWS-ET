@@ -34,6 +34,33 @@
 				- AWS Console -> creating a new instance > click launch > Step1 Choose AMI (this allow you to start 
 				  an instance from an existing Amazon package)
 
+	## Elastic Load Balancing
+
+			- It is a component built to balance the traffic load across multiple EC2 instances and multiple availability
+			  zones
+			- Achieves greater levels of fault tolerance in your applications
+			- Scales request-handling capability automatically to meet the traffic demands of your application
+			
+			### ELB
+
+				- it can handle the routing and load balancing of your HTTP, HTTPS and TCP traffic to your EC2 instance
+				- configure health checks
+				- scales dynamically
+				- single CNAME for DNS configuration
+
+			
+	## Cloudwatch - Resource and Application Monitoring - most of it free of charge
+
+			- Resource and Application monitoring service - without having to install any software
+			- Monitor resources immediately and automatically
+			- Monitor utilization, performance, demand
+			- gather metrics ex. CP utilization, network traffic
+			- it allows u to set alarms when specific metrics are breached which can then trigger an action
+			- paid plan offers higher frequency monitoring intervals (1 minute) versus 5-minute intervals free plan
+			- pre defined metrics
+			- monitor aggregate metrics
+			
+
 
 
 
