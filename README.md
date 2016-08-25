@@ -7,3 +7,6 @@
 - Creating a scallable system architecture for a basic web application
 - How to interface with AWS services through management console and API
 
+
+
+![AWS Services](images/AWS_services.gif "Logo Title Text 1")
