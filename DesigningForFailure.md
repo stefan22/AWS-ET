@@ -29,7 +29,13 @@
 			### Amazon Machine Image Contents:
 
 				- template for root volume -ex operating system
-				- launch permissions
-				- block device mapping
+				- launch permissions - that control which AWS accounts can use the AMI to launch instances
+				- block device mapping - to attach to the instance when launched
+				- AWS Console -> creating a new instance > click launch > Step1 Choose AMI (this allow you to start 
+				  an instance from an existing Amazon package)
+
+
+
+
 
 
