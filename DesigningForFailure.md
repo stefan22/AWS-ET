@@ -59,7 +59,48 @@
 			- paid plan offers higher frequency monitoring intervals (1 minute) versus 5-minute intervals free plan
 			- pre defined metrics
 			- monitor aggregate metrics
-			
+
+	## Elastic Block Storage (EBS) Volume Storage
+
+			- If you're running an application on EC2 and this application is storing data on the instance, you
+			  need to know about your storage options and how to design to ensure you are able to retain this data
+			  in the event an instance were to fail.
+
+			- In AWS storage comes in 2 options: 
+
+						- Elastic Block Storage (Persistent) and	//it persists after instance is terminated
+						- Ephemeral Storage (Not Persistent)		// does not survive terminantion
+
+
+			- EBS are storage resources that you create separately from EC2 instances.
+			- Then you attach the EBS volumes to EC2 instances.
+			- Once attached you can create a file system or run a database on top of these storage devices.
+			- Volumes up to 1TB
+			- Attach multiple volumes to a single instance
+			- Create point-in time snapshots
+			- Copy snapshots across regions
+			- Use snapshots to instantiate new volumes
+			- In order to make your snapshow complete, you need to pause all writes to the volume otherwise
+			  it only captures data that has been written
+			- EBS snapshots are stored incrementally
+			- Snapshots can also be used to change attributes of existing EBS volumes
+			- Snapshots can be used to resize volumes and easy to share
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
